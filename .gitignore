@@ -1,0 +1,62 @@
+# ---------------------------------------
+# Node modules and dependencies
+# ---------------------------------------
+node_modules/
+
+# ---------------------------------------
+# Build output (Angular, general web)
+# ---------------------------------------
+dist/
+out-tsc/
+build/
+
+# ---------------------------------------
+# Logs and debug files
+# ---------------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ---------------------------------------
+# System & OS specific files (macOS)
+# ---------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ---------------------------------------
+# Editor & IDE configs
+# ---------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------------------
+# Environment and secrets
+# ---------------------------------------
+.env
+.env.local
+.env.*.local
+
+# ---------------------------------------
+# TypeScript build info
+# ---------------------------------------
+*.tsbuildinfo
+
+# ---------------------------------------
+# Test coverage
+# ---------------------------------------
+coverage/
+
+# ---------------------------------------
+# Cache folders
+# ---------------------------------------
+.angular/
+.cache/
+tmp/
+temp/
