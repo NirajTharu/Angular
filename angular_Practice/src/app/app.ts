@@ -8,5 +8,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css',
 })
 export class App {
-  protected readonly title = signal('angular_Practice');
+  // protected readonly title = signal('angular_Practice');
+  title = 'Angular_Practice';
+  username = 'nirajtharu3';
+  imgUrl = 'Facebook.svg';
+  showAlert() {
+    alert('Who you are?');
+  }
+  Name = '';
 }
