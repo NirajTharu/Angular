@@ -1,19 +1,13 @@
+import { CommonModule } from '@angular/common';
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { toObservable } from '@angular/core/rxjs-interop';
+import { FormsModule } from '@angular/forms';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [FormsModule, CommonModule, RouterLink, RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css',
+  styleUrls: ['./app.css'],
 })
-export class App {
-  // protected readonly title = signal('angular_Practice');
-  title = 'Angular_Practice';
-  username = 'nirajtharu3';
-  imgUrl = 'Facebook.svg';
-  showAlert() {
-    alert('Who you are?');
-  }
-  Name = '';
-}
+export class App {}
