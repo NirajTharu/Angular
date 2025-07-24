@@ -6,7 +6,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [FormsModule, CommonModule, RouterLink, RouterOutlet],
+  imports: [FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrls: ['./app.css'],
 })
